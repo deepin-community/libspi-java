@@ -1,0 +1,30 @@
+libspi-java (0.2.4-3) unstable; urgency=medium
+
+  * Team upload.
+  * The timestamp in the META-INF/services/* files now use a fixed timezone
+  * Build with the DH sequencer instead of CDBS
+  * Standards-Version updated to 4.4.0
+  * Switch to debhelper level 11
+  * Use salsa.debian.org Vcs-* URLs
+  * Changed the priority from extra to optional
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 13 Sep 2019 11:05:31 +0200
+
+libspi-java (0.2.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add myself to Uploaders
+  * Use debhelper and compat level 10
+  * Bump Standards-Version to 3.9.8
+  * Add support for SOURCE_DATE_EPOCH for reproducible builds.
+    Build-deps of libspi-java will now use SOURCE_DATE_EPOCH instead of
+    embedding the current build timestamp in META-INF/services/* files.
+    (Closes: #872065)
+
+ -- tony mancill <tmancill@debian.org>  Sun, 13 Aug 2017 20:58:20 -0700
+
+libspi-java (0.2.4-1) unstable; urgency=low
+
+  * Initial release. (Closes: #807874)
+
+ -- Jakub Adam <jakub.adam@ktknet.cz>  Fri, 02 Nov 2012 21:28:02 +0100

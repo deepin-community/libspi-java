@@ -1,0 +1,2 @@
+version=3
+http://code.google.com/p/spi/downloads/list?can=1 .*/spi-src-(\d[\d.]*)\.(?:zip|tgz|tbz2|txz|tar\.gz|tar\.bz2|tar\.xz)

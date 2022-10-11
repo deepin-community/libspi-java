@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with javahelper
+
+override_dh_auto_build:
+	jh_build spi.jar src
+	cd src && jar uf ../spi.jar META-INF
