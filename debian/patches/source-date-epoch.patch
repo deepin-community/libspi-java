@@ -3,8 +3,8 @@ Description: add support SOURCE_DATE_EPOCH
 Author: tony mancill <tmancill@debian.org>
 Last-Update: 2017-08-13
 
---- a/src/org/mangosdk/spi/processor/Persistence.java
-+++ b/src/org/mangosdk/spi/processor/Persistence.java
+--- a/org.mangosdk.spi/src/main/java/org/mangosdk/spi/processor/Persistence.java
++++ b/org.mangosdk.spi/src/main/java/org/mangosdk/spi/processor/Persistence.java
 @@ -131,8 +131,10 @@
  		FileObject output = filer.createResource(StandardLocation.CLASS_OUTPUT, "", path + serviceName);
  		Writer writer = output.openWriter();
@@ -22,7 +22,7 @@ Last-Update: 2017-08-13
  		}
  	}
 +
-+	// return build timestamp, either the value of SOURCE_DATE_EPOCH 
++	// return build timestamp, either the value of SOURCE_DATE_EPOCH
 +	// in milliseconds or the current system time in milliseconds
 +	// see: https://reproducible-builds.org/specs/source-date-epoch/
 +	private long getBuildDate() {
