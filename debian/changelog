@@ -1,3 +1,14 @@
+libspi-java (0.2.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Build with maven-debian-helper
+  * Standards-Version updated to 4.6.0.1
+  * Switch to debhelper level 13
+  * Removed the -java-doc package
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 10 May 2022 23:57:45 +0200
+
 libspi-java (0.2.4-3) unstable; urgency=medium
 
   * Team upload.
